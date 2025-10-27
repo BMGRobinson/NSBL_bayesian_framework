@@ -1,0 +1,47 @@
+	run specified..................................................................True
+Reading model Model_SEIRD_ICs
+	Simulation parameters
+	dt specified...................................................................0.1
+	fStepsBetweenMeasurements specified............................................10
+	folder specified..............................................................."Case_SEIRD_synthetic2"
+	data specified................................................................."synthetic_data_case2.dat"
+	handle specified..............................................................."mSEIRD_ic"
+	measurementCov specified......................................................."variance.dat"
+	state_estimator specified......................................................"ekf"
+
+	State Estimation parameters
+	State_Estimation specified.....................................................False
+	parallelGroups specified.......................................................2
+	nprocs specified...............................................................1
+	nparticles not found or invalid type. Using default value......................1000
+	Initial state : 0.9997 0.00015 0.00015 0 0 0.15 
+	Initial state variance : 
+		3e-09 0 0 0 0 0 
+		0 3e-09 0 0 0 0 
+		0 0 3e-09 0 0 0 
+		0 0 0 3e-09 0 0 
+		0 0 0 0 3e-09 0 
+		0 0 0 0 0 0.0001 
+
+	Setting process noise covariance to zero matrix with last term 1.0
+
+	MCMC parameters
+	Parameter_Estimation specified.................................................True
+	Method specified..............................................................."TMCMC"
+	Diagnostic not found or invalid type. Using default value......................False
+	dim specified..................................................................4
+	window specified...............................................................10000
+	COV not found or invalid type. Using default value.............................1
+	COV_TOL not found or invalid type. Using default value.........................0.0001
+
+	Evidence Estimation parameters
+	Evidence_Estimation specified..................................................False
+	EVIDENCE_CONFIG flag not found. Will not estimate the evidence.
+
+	Optimization parameters
+	doOptimization not found or invalid type. Using default value..................False
+
+	State Estimation Error
+	doStateEstimationError not found or invalid type. Using default value..........False
+
+	Using prior distribution for parameters.
